@@ -5,7 +5,7 @@
 </p>
 
 
-FV-LIDAC (Formally Verified Library of Input Data Aware Approximate Circuits) is the first formally verified library of input distribution aware approximate arithmetic circuits. 
+FV-LIDAC (Formally Verified Library of Input Data Aware Approximate Circuits) is a formally verified library of input distribution aware approximate arithmetic circuits. 
 
 
 <p align="center">
@@ -13,7 +13,11 @@ FV-LIDAC (Formally Verified Library of Input Data Aware Approximate Circuits) is
 </p>
 
 In this repository, the initial multiplier and initial adder designs were taken from [GenMul](https://agra.informatik.uni-bremen.de/s_sca.php?lang=en) (available on [Github](https://github.com/amahzoon/genmul)).
-The multipliers and adders are utilized as the starting point (Step 1) in the FV-LIDAC flow.
+The multipliers and adders are utilized as the starting point in the FV-LIDAC flow (see Step 1).
+Through [cecApprox](https://doi.org/10.1109/TCSI.2024.3388256) the circuits a validated, and design metrics and error metrics are determined in order to find the Pareto-optimal designs for a given pair of design metric and error metric.
+
+Please feel free to utilize this library in your research, or applications. 
+More information can be found in [our open access publication](https://doi.org/10.1145/3744710).
 
 ## Project Structure
 
