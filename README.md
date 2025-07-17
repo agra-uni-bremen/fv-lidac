@@ -9,7 +9,7 @@ FV-LIDAC (Formally Verified Library of Input Data Aware Approximate Circuits) is
 
 
 <p align="center">
-  <img src="./img/fv-lidac-flow.png" alt="FV-LIDAC Flow"/>
+  <img src="./img/fv-lidac_flow.png" alt="FV-LIDAC Flow"/>
 </p>
 
 
