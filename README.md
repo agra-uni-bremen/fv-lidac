@@ -12,6 +12,8 @@ FV-LIDAC (Formally Verified Library of Input Data Aware Approximate Circuits) is
   <img src="./img/fv-lidac_flow.png" alt="FV-LIDAC Flow"/>
 </p>
 
+In this repository, the initial multiplier and initial adder designs were taken from [GenMul](https://agra.informatik.uni-bremen.de/s_sca.php?lang=en) (available on [Github](https://github.com/amahzoon/genmul)).
+The multipliers and adders are utilized as the starting point (Step 1) in the FV-LIDAC flow.
 
 ## Project Structure
 
@@ -69,6 +71,8 @@ FV-LIDAC/
         └── pwr-mse
 
 ```
+
+
 
 ## How to cite
 
