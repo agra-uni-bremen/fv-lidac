@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+title: FV-LIDAC
+message: >-
+  If you want to cite this library, please use the metadata from this file.
+type: software
+authors:
+  - given-names: Sallar
+    family-names: Ahmadi-Pour
+    email: sallar@uni-bremen.de
+    affiliation: University of Bremen
+    orcid: 'https://orcid.org/0000-0003-4000-6207'
+  - given-names: Sajjad
+    family-names: Parvin
+    email: parvin@uni-bremen.de
+    affiliation: University of Bremen
+    orcid: 'https://orcid.org/0000-0002-3069-8791'
+  - given-names: Chandan Kumar
+    family-names: Jha
+    email: chajha@uni-bremen.de
+    affiliation: University of Bremen
+    orcid: 'https://orcid.org/0000-0001-9490-4470'
+  - given-names: Rolf
+    family-names: Drechsler
+    email: drechsler@uni-bremen.de
+    affiliation: University of Bremen
+    orcid: 'https://orcid.org/0000-0002-9872-1740'
+identifiers:
+  - type: doi
+    value: 10.1145/3744710
+    description: >-
+      FV-LIDAC: Formally Verified Library of Input Data Aware Approximate Arithmetic Circuits
+      FV-LIDAC is a library of approximate circuits, namely adders and multipliers, with 8-bit and 16-bit circuits, which were identified as Pareto-optimal for different input distributions. Through their approximation scheme, formal verification was employed for the introduced approximation with the cecApprox methodology.
+repository-code: 'https://github.com/agra-uni-bremen/fv-lidac'
+abstract: >-
+  FV-LIDAC: Formally Verified Library of Input Data Aware Approximate Arithmetic Circuits
+license: MIT
